@@ -1,0 +1,10 @@
+[package]
+name = "rate-swallow"
+version = "0.1.0"
+edition = "2021"
+description = "Rate limit stdin and discard the rest."
+readme = "README.md"
+
+
+[dependencies]
+clap = { version = "4.0.29", features = ["derive"] }
